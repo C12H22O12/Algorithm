@@ -24,4 +24,4 @@ JAVA와 알고리즘 두 마리 토끼 잡기 프로젝트
 
 # 📚
 
-[벨로그 바로 가기] (https://velog.io/@director20844 )
+벨로그 바로 가기 - https://velog.io/@director20844
