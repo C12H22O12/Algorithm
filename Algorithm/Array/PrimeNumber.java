@@ -105,4 +105,29 @@ public class PrimeNumber {
 
         System.out.print("Tried number: " + counter);
     }
+
+    // 1000 이하의 소수를 나열(ver.4)
+    /*
+    * 에라토스테네스의 체 방법 활용
+    * 여러 개의 소수를 구하고 싶을 때 체를 거르듯이 하는 방법
+    * 2를 제외한 2의 배수인 수를 모두 거르고,
+    * 3을 제외한 3의 배수인 수를 모두 거르는 식의 방법 반복
+    * 구하려는 범위의 최댓값의 제곱근까지만 반복
+    * */
+    public boolean[] Eratosthenes(int Max) {
+        boolean[] prime = new boolean[Max+1];
+
+        prime[0] = true;                                // 0은 소수가 아님
+        prime[1] = true;                                // 1은 소수가 아님
+
+        for (int i = 2; i <= Math.sqrt(Max); i++) {     // 제곱근까지만 검사
+            if (prime[i]) continue;
+
+            for (int j = i*i; j < Max+1; j = j+i) {
+                prime[i] = true;
+            }
+        }
+
+        return prime;
+    }
 }
