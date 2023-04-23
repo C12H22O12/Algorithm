@@ -20,6 +20,7 @@ JAVA와 알고리즘 두 마리 토끼 잡기 프로젝트
 
 - **PrimeNumber** : 범위 내의 소수 찾기
 
+- **PhysicalExamination** : 클래스에서 배열 구현하기
 
 
 # 📚
