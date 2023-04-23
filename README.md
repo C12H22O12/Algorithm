@@ -1,7 +1,7 @@
 # 알고리즘 뽀개기 with JAVA
 
-![](C:\Users\SSAFY\Desktop\벨로그\알고리즘 Readme.png)
 
+![알고리즘 Readme](https://user-images.githubusercontent.com/68185554/233309400-ac6102e5-139a-44b0-88b1-301f196b0672.png)
 
 
 JAVA와 알고리즘 두 마리 토끼 잡기 프로젝트
@@ -25,4 +25,4 @@ JAVA와 알고리즘 두 마리 토끼 잡기 프로젝트
 
 # 📚
 
-[벨로그 바로 가기] (https://velog.io/@director20844 )
+벨로그 바로 가기 - https://velog.io/@director20844
